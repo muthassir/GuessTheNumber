@@ -1,0 +1,166 @@
+body{
+    background-image: url(audio/Img5.jpg);
+    background-size: cover;
+}
+.h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    height: 80px;
+    width: 700px ;
+}
+
+     /* input box */
+
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 700px ;
+    border-radius: 5px;
+    backdrop-filter: 20px;
+    box-shadow: 3px 3px 15px black, -3px -3px 20px black;
+
+
+}
+
+h2{
+    height: 36px;
+    width: 100px;
+    text-align: center;
+    border-radius: 7px;
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+    background-color: white;
+
+}
+
+  /* box numbers */
+#boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 700px;
+    
+}
+
+.box{
+    padding: 5px;
+    border-radius: 5px;
+    backdrop-filter: 40px;
+    box-shadow: 3px 3px 6px black, -3px -3px 6px black;
+
+
+}
+
+.btn-dark{
+       margin: 5px;
+       height: 40px;
+       width: 40px;
+       border: 2px solid black;
+       border-radius: 50%;
+}
+
+     /* show and reset button */
+
+.butt{
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    width: 700px ;
+}
+.btn-success,.btn-danger{
+   border: 2px solid black;
+   color: black;
+   font-weight: bold;
+   margin: 15px;
+}
+
+#res{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-size: 40px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    
+}
+.box2{
+    margin-top: 10px;
+    width: 700px;
+    height: 100px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: 20px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 15px black, -3px -3px 20px black;
+
+}
+
+
+
+
+/* congratulation alert */
+
+.winner{
+    display: none;
+    border: 2px solid black;
+    text-align: center;
+    padding: 5px;
+    width: 700px;
+    height: 200px;
+    background-color: rgb(24, 164, 150);
+    border-radius: 3px;
+}
+.winnerbtn{
+     
+     height: 30px;
+     width: 60px;
+     cursor: pointer;
+     border: none;
+     background-color: red;
+     color: white;
+     font-size: 20px;
+     margin-left: 1px;
+     margin-top: 10px;
+     border-radius: 5px;
+}
+.winnerbtn:hover{
+    box-shadow: 2px 2px 4px black;
+    color: #000;
+}
+.winner h1{
+    color: yellow;
+}
+p{
+    text-align: center;
+}
+
+
+/* marquee text quote */
+
+h4{
+    color: black;
+    font-size: 15px;
+}
+.can{
+    color: red;
+}
+.dare{
+    color: green;
+}
+
+
+audio{
+    display: none;
+}
