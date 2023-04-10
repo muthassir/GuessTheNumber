@@ -8,7 +8,7 @@ function show(num){
 }
 
 function get(){
-    let shows = Math.floor(Math.random()*22)
+    let shows = Math.floor(Math.random()*19)
     console.log(shows);
     if (shows == 0) {
         shows = shows + 1
