@@ -19,7 +19,7 @@ function get(){
         result.innerHTML = ""
         
     }
-    if(input.innerHTML >= 22){
+    if(input.innerHTML >= 19){
       alert("select number correctly")
       reset()
     }
