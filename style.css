@@ -1,6 +1,7 @@
 body{
     background-image: url(audio/Img5.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 .h1{
     display: flex;
